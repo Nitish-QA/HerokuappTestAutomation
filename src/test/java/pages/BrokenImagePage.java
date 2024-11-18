@@ -18,7 +18,6 @@ public class BrokenImagePage extends BasePage {
 	@FindBy(tagName = "img")
 	private List<WebElement> allImagesLinks;
 	
-	
 	public void openBrokenImagePage() {
 		brokenImagesPageLink.click();
 	}
